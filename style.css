@@ -88,3 +88,209 @@ font-weight: 600;
     width: 100%;
     height: 100%;
 }
+/* midnigh party styls */
+.midnight-party-container{
+    width: 1320px;
+    height: 600px;
+    
+    margin: 0 auto;
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: overlay;
+    background-image: url("images/Vectorrr.png");
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.leftside-content{
+    width: 50%;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.rightside-content {
+    width: 50%;
+    height: 600px;
+    
+}
+.leftside-content h2 {
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+}
+.leftside-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 50px;
+}
+#midnight-button{
+    color: rgb(255, 255, 255);
+    
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-right: 400px;
+margin-bottom: 100px;
+}
+.rightside-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* hotel styles */
+
+.hotel{
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 16px;
+    margin-left: 75px;
+    margin-top: 120px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.hotel-btn{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 8px;
+    width: 167px;
+    border: none;
+    
+height: 56px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+/* offer styles */
+
+
+.offer-container{
+    width: 1320px;
+    height: 620px;
+    margin-top: 100px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 65px;
+    margin-bottom: 100px;
+}
+.coming-top{
+    justify-content: center;
+    padding: 50px;
+    width: 40%;
+    margin-right: 20px;
+   
+}
+.offer-mideel{
+    justify-content: center;
+    
+     ;
+}
+.offer-mideel img {
+    border: 20px solid red;
+    width: 465px;
+    border-radius: 50%;
+    
+
+}
+.happy-top{
+    justify-content: center;
+    text-align: center;
+    margin-top: 180px;
+    
+}
+.happy-top img{
+    width: 200px;
+    margin-top: 100px;
+}
+/* holiday section */
+.holiday-section-contaienr{
+    width: 1320px;
+    height: 986px;
+    
+    margin-top: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.holiday-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-text-container h2 {
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+}
+#holiday {
+    color: rgb(255, 0, 0);
+}
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
+.gift-box{
+    width: 674.82px;
+height: 577.96px; 
+position: relative;
+z-index: 1;
+}
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 70%;
+}
